@@ -1,0 +1,60 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(49, 79%, 54%);
+  display: flex;
+  align-items: center; /* vertical */
+  justify-content: center; /* horizontal */
+  flex-direction: column;
+  height: 100vh; /* vieport height - to make it in center of the screen actually */
+}
+
+.container {
+  max-width: 1440px;
+}
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 16px 16px 40px;
+  width: 320px;
+  box-shadow: 10px 7px 0px rgb(0, 0, 0);
+}
+
+.illustration {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.learningButton {
+  background-color: hsl(49, 79%, 54%);
+  border-radius: 6px;
+  border: none;
+  height: 25px;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 23px;
+}
+
+a.link:hover {
+  color: hsl(49, 79%, 54%);
+}
+
+.textimg {
+  display: flex;
+}
+
+.imgGreg {
+  scale: 50%;
+}
