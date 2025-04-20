@@ -5,9 +5,18 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+p,
+h1,
+h3 {
+  font-family: "Fig Tree", sans-serif;
+}
+
+p {
+  font-size: small;
+}
 
 body {
-  background-color: hsl(49, 79%, 54%);
+  background-color: hsl(48, 83%, 63%);
   display: flex;
   align-items: center; /* vertical */
   justify-content: center; /* horizontal */
@@ -33,17 +42,23 @@ body {
 }
 
 .learningButton {
-  background-color: hsl(49, 79%, 54%);
+  background-color: hsl(48, 83%, 63%);
   border-radius: 6px;
   border: none;
   height: 25px;
   font-weight: bold;
 }
 
+.learningButton:hover {
+  background-color: #000000; /* Green */
+  color: white;
+}
+
 .link {
   text-decoration: none;
   color: black;
-  font-weight: bolder;
+  font-family: "Fig Tree", sans-serif;
+  font-weight: 700;
   font-size: 23px;
 }
 
@@ -51,6 +66,10 @@ a.link:hover {
   color: hsl(49, 79%, 54%);
 }
 
+.maintext {
+  color: hsl(240, 1%, 50%);
+  line-height: 1.5;
+}
 .textimg {
   display: flex;
 }
