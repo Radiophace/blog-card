@@ -12,11 +12,11 @@ h3 {
 }
 
 p {
-  font-size: small;
+  font-size: 16px;
 }
 
 body {
-  background-color: hsl(48, 83%, 63%);
+  background-color: hsl(47, 88%, 63%);
   display: flex;
   align-items: center; /* vertical */
   justify-content: center; /* horizontal */
@@ -42,7 +42,7 @@ body {
 }
 
 .learningButton {
-  background-color: hsl(48, 83%, 63%);
+  background-color: hsl(47, 88%, 63%);
   border-radius: 6px;
   border: none;
   height: 25px;
@@ -56,18 +56,18 @@ body {
 
 .link {
   text-decoration: none;
-  color: black;
+  color: hsl(0, 0%, 7%);
   font-family: "Fig Tree", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 23px;
 }
 
 a.link:hover {
-  color: hsl(49, 79%, 54%);
+  color: hsl(47, 88%, 63%);
 }
 
 .maintext {
-  color: hsl(240, 1%, 50%);
+  color: hsl(0, 0%, 42%);
   line-height: 1.5;
 }
 .textimg {
